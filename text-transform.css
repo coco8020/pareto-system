@@ -1,0 +1,4 @@
+.u--uppercase {text-transform: uppercase;}
+.u--lowercase {text-transform: lowercase;}
+.u--capitalize {text-transform: capitalize;}
+.u--normal-case {text-transform: none;}
