@@ -41,18 +41,25 @@ const utilityGroup = prtSystemButton.getAttribute('prt-system-button');
 
 // BREAKPOINT CHECKBOXES
 
+const breakpoints = {
+  tiny: "mp",
+  small: "ml",
+  medium: "tb",
+  large: "lg",
+  xl: "xl",
+  xxl: "xxl"
+};
+
 let checkboxes = document.querySelectorAll('[breakpoint-checkbox="true"]');
 // add event listener to checkboxes
 checkboxes.forEach((checkbox) => {
   checkbox.addEventListener("change", (event) => {
     if (checkbox.checked) {
-      console.log(checkbox.value + " checked");
       // get breakpoint
       let breakpoint = breakpoints[checkbox.value];
       let nodes = webflowJSON.payload.styles;
       // get nodes with name that start with "u-"
       nodes = nodes.filter((node) => node.name.startsWith("u-"));
-      console.log(nodes);
       nodes.forEach(function (record) {
         // get name value of node
 
@@ -78,7 +85,6 @@ checkboxes.forEach((checkbox) => {
         // add node to webflowJSON
         webflowJSON.payload.styles.push(node);
       });
-      console.log(webflowJSON);
     } else {
       // find nodes with value in variants
       let nodes = webflowJSON.payload.styles.filter(
@@ -89,7 +95,6 @@ checkboxes.forEach((checkbox) => {
         let index = webflowJSON.payload.styles.indexOf(node);
         webflowJSON.payload.styles.splice(index, 1);
       });
-      console.log(webflowJSON);
     }
   });
 });
@@ -98,7 +103,6 @@ checkboxes.forEach((checkbox) => {
 fetch(`https://cdn.jsdelivr.net/gh/coco8020/pareto-system@latest/css/${utilityGroup}.css`)
   .then((response) => response.text())
   .then((data) => {
-    console.log(data);
     // remove all comments
     data = data.replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, "");
     // remove all new lines
