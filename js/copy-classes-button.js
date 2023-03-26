@@ -95,7 +95,7 @@ checkboxes.forEach((checkbox) => {
 });
 
 // fetch css file
-fetch(`https://cdn.jsdelivr.net/gh/coco8020/pareto-system@main/css/${utilityGroup}.css`)
+fetch(`https://cdn.jsdelivr.net/gh/coco8020/pareto-system@latest/css/${utilityGroup}.css`)
   .then((response) => response.text())
   .then((data) => {
     console.log(data);
