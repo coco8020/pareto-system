@@ -1,17 +1,17 @@
 .u--m-0 {margin: 0px;}
-.u--m-0-25 {margin: 0.25rem 4px;}
-.u--m-0-5 {margin: 0.5rem 8px;}
-.u--m-0-75 {margin: 0.75rem 12px;}
-.u--m-1 {margin: 1rem 16px;}
-.u--m-1-25 {margin: 1.25rem 20px;}
-.u--m-1-5 {margin: 1.5rem 24px;}
-.u--m-2 {margin: 2rem 32px;}
-.u--m-2-5 {margin: 2.5rem 40px;}
-.u--m-3 {margin: 3rem 48px;}
-.u--m-3-5 {margin: 3.5rem 56px;}
-.u--m-4 {margin: 4rem 64px;}
-.u--m-4-5 {margin: 4.5rem 72px;}
-.u--m-5 {margin: 5rem 80px;}
+.u--m-0-25 {margin-top: 0.25rem; margin-right: 4px; margin-bottom: 0.25rem; margin-left: 4px;}
+.u--m-0-5 {margin-top: 0.5rem; margin-right: 8px; margin-bottom: 0.5rem; margin-left: 8px;}
+.u--m-0-75 {margin-top: 0.75rem; margin-right: 12px; margin-bottom: 0.75rem; margin-left: 12px;}
+.u--m-1 {margin-top: 1rem; margin-right: 16px; margin-bottom: 1rem; margin-left: 16px;}
+.u--m-1-25 {margin-top: 1.25rem; margin-right: 20px; margin-bottom: 1.25rem; margin-left: 20px;}
+.u--m-1-5 {margin-top: 1.5rem; margin-right: 24px; margin-bottom: 1.5rem; margin-left: 24px;}
+.u--m-2 {margin-top: 2rem; margin-right: 32px; margin-bottom: 2rem; margin-left: 32px;}
+.u--m-2-5 {margin-top: 2.5rem; margin-right: 40px; margin-bottom: 2.5rem; margin-left: 40px;}
+.u--m-3 {margin-top: 3rem; margin-right: 48px; margin-bottom: 3rem; margin-left: 48px;}
+.u--m-3-5 {margin-top: 3.5rem; margin-right: 56px; margin-bottom: 3.5rem; margin-left: 56px;}
+.u--m-4 {margin-top: 4rem; margin-right: 64px; margin-bottom: 4rem; margin-left: 64px;}
+.u--m-4-5 {margin-top: 4.5rem; margin-right: 72px; margin-bottom: 4.5rem; margin-left: 72px;}
+.u--m-5 {margin-top: 5rem; margin-right: 80px; margin-bottom: 5rem; margin-left: 80px;}
 .u--my-0 {margin-top: 0px; margin-bottom: 0px;}
 .u--my-0-25 {margin-top: 0.25rem; margin-bottom: 0.25rem;}
 .u--my-0-5 {margin-top: 0.5rem; margin-bottom: 0.5rem;}
