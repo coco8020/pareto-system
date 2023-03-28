@@ -38,6 +38,8 @@ const prtSystemButton = document.querySelector('[prt-system-button]');
 // get value of attribute
 const utilityGroup = prtSystemButton.getAttribute('prt-system-button');
 
+const version = prtSystemButton.getAttribute('prt-system-version');
+
 
 // BREAKPOINT CHECKBOXES
 
@@ -100,7 +102,7 @@ checkboxes.forEach((checkbox) => {
 });
 
 // fetch css file
-fetch(`https://cdn.jsdelivr.net/gh/coco8020/pareto-system@latest/css/${utilityGroup}.css`)
+fetch(`https://cdn.jsdelivr.net/gh/coco8020/pareto-system@${version}/css/${utilityGroup}.css`)
   .then((response) => response.text())
   .then((data) => {
     // remove all comments
