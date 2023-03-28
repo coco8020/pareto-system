@@ -1,0 +1,5 @@
+.u--container-sm {width: 100%; max-width: 640px; margin-right: auto; margin-left: auto;}
+.u--container-md {width: 100%; max-width: 768px; margin-right: auto; margin-left: auto;}
+.u--container-lg {width: 100%; max-width: 1024px; margin-right: auto; margin-left: auto;}
+.u--container-xl {width: 100%; max-width: 1280px; margin-right: auto; margin-left: auto;}
+.u--container-xxl {width: 100%; max-width: 1536px; margin-right: auto; margin-left: auto;}
