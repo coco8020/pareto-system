@@ -1,0 +1,5 @@
+.u--object-contain {object-fit: contain;}
+.u--object-cover {object-fit: cover;}
+.u--object-fill {object-fit: fill;}
+.u--object-none {object-fit: none;}
+.u--object-scale-down {object-fit: scale-down;}

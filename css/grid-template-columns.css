@@ -1,0 +1,12 @@
+.u--grid-cols-1 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr;}
+.u--grid-cols-2 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr;}
+.u--grid-cols-3 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr 1fr;}
+.u--grid-cols-4 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr 1fr 1fr;}
+.u--grid-cols-5 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+.u--grid-cols-6 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;}
+.u--grid-cols-7 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.u--grid-cols-8 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.u--grid-cols-9 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.u--grid-cols-10 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.u--grid-cols-11 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.u--grid-cols-12 {display: grid; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}

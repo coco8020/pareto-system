@@ -1,0 +1,4 @@
+.u--flex-horizontal {flex-direction: row;}
+.u--flex-vertical {flex-direction: column;}
+.u--flex-horizontal-reverse {flex-direction: row-reverse;}
+.u--flex-vertical-reverse {flex-direction: column-reverse;}

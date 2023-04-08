@@ -1,10 +1,15 @@
-.u--bg-transparent { background-color: transparent; }
-.u--bg-black { background-color: #000000; }
-.u--bg-white { background-color: #ffffff; }
-.u--bg-purple { background-color: #4800ff; }
-.u--bg-red { background-color: #f6413d; }
-.u--bg-pink { background-color: #ffa1b0; }
-.u--bg-dark-purple { background-color: #00045d; }
-.u--bg-gold { background-color: #eec643; }
-.u--bg-teal { background-color: #0f7173; }
-.u--bg-light-grey { background-color: #cad2c5; }
+.u--bg-primary-100 {background-color:#4800ff;}
+.u--bg-primary-60 {background-color:#9166ff;}
+.u--bg-primary-40 {background-color:#b699ff;}
+.u--bg-primary-20 {background-color:#daccff;}
+.u--bg-primary-10 {background-color:#e6e5ff;}
+.u--bg-primary-5 {background-color:#f6f2ff;}
+.u--bg-ink-100 {background-color:#000345;}
+.u--bg-ink-60 {background-color:#66688f;}
+.u--bg-ink-40 {background-color:#999ab5;}
+.u--bg-ink-20 {background-color:#cccdda;}
+.u--bg-ink-10 {background-color:#e5e6ec;}
+.u--bg-ink-5 {background-color:#f2f2f6;}
+.u--bg-white {background-color:#ffffff;}
+.u--bg-black {background-color:#000000;}
+.u--bg-transparent {background-color:transparent;}

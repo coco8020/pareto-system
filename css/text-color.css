@@ -1,10 +1,15 @@
-.u--text-transparent { color: transparent; }
-.u--text-black { color: #000000; }
-.u--text-white { color: #ffffff; }
-.u--text-purple { color: #4800ff; }
-.u--text-red { color: #f6413d; }
-.u--text-pink { color: #ffa1b0; }
-.u--text-dark-purple { color: #00045d; }
-.u--text-gold { color: #eec643; }
-.u--text-teal { color: #0f7173; }
-.u--text-light-grey { color: #cad2c5; }
+.u--text-primary-100 {color:#4800ff;}
+.u--text-primary-60 {color:#9166ff;}
+.u--text-primary-40 {color:#b699ff;}
+.u--text-primary-20 {color:#daccff;}
+.u--text-primary-10 {color:#e6e5ff;}
+.u--text-primary-5 {color:#f6f2ff;}
+.u--text-ink-100 {color:#000345;}
+.u--text-ink-60 {color:#66688f;}
+.u--text-ink-40 {color:#999ab5;}
+.u--text-ink-20 {color:#cccdda;}
+.u--text-ink-10 {color:#e5e6ec;}
+.u--text-ink-5 {color:#f2f2f6;}
+.u--text-white {color:#ffffff;}
+.u--text-black {color:#000000;}
+.u--text-transparent {color:transparent;}
