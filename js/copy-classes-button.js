@@ -85,6 +85,8 @@ fetch(`https://cdn.jsdelivr.net/gh/coco8020/pareto-system@${version}/css/${utili
 
                 let stateProperty = states[state];
 
+                let mainStateProperty = "main_" + stateProperty;
+
                 stateProperty = checkbox.value + "_" + stateProperty;
 
                 // create json node
@@ -98,7 +100,7 @@ fetch(`https://cdn.jsdelivr.net/gh/coco8020/pareto-system@${version}/css/${utili
                   styleLess: "",
                   variants: {
                     [stateProperty]: {
-                      styleLess: record.variants[stateProperty].styleLess
+                      styleLess: record.variants[mainStateProperty].styleLess
                     }
                   },
                   children: [],
