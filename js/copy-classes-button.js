@@ -96,11 +96,7 @@ fetch(`https://cdn.jsdelivr.net/gh/coco8020/pareto-system@${version}/css/${utili
                   namespace: "",
                   comb: "",
                   styleLess: "",
-                  variants: {
-                    [stateProperty]: {
-                      styleLess: record.variants.main_hover.styleLess
-                    }
-                  },
+                  variants: record.variants,
                   children: [],
                   createdBy: "60a00ee3ce4d2f8019c20f88",
                   selector: null
