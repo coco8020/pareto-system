@@ -5,6 +5,7 @@ const states = {
   pressed: "active",
   focuskeyboard: "focus-visible",
   focus: "focus",
+  checked: "redirected-checked",
 };
 
 
