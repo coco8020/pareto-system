@@ -1,3 +1,6 @@
+.u--inset-0 {top: 0px; right: 0px; bottom: 0px;}
+.u--inset-x-0 {top: 0px; bottom: 0px;}
+.u--inset-y-0 {right: 0px; left: 0px;}
 .u--top-auto {top: auto;}
 .u--top-1-2 {top: 50%;}
 .u--top-1-3 {top: 33.333333%;}
