@@ -12,6 +12,7 @@
 .u--w-full {width: 100%;}
 .u--w-screen {width: 100vw;}
 .u--w-auto {width: auto;}
+.u--w-0 { width: 0px; }
 .u--w-1px { width: 1px; }
 .u--w-2px { width: 2px; }
 .u--w-4px { width: 4px; }

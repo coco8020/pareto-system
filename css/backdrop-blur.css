@@ -1,0 +1,8 @@
+.u--backdrop-blur-none {backdrop-filter: blur(0);}
+.u--backdrop-blur-sm {backdrop-filter: blur(4px);}
+.u--backdrop-blur {backdrop-filter: blur(8px);}
+.u--backdrop-blur-md {backdrop-filter: blur(12px);}
+.u--backdrop-blur-lg {backdrop-filter: blur(16px);}
+.u--backdrop-blur-xl {backdrop-filter: blur(24px);}
+.u--backdrop-blur-2xl {backdrop-filter: blur(40px);}
+.u--backdrop-blur-3xl {backdrop-filter: blur(64px);}
